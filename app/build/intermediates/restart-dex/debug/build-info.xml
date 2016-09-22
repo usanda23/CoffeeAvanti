@@ -4,27 +4,27 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="617835145789687"
+    timestamp="2084883886411689"
     token="2772400160817588639" >
 
     <task
         name="javac"
-        duration="2672" />
+        duration="375" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="468" />
+        duration="99" />
     <task
         name="verifier"
-        duration="125" />
+        duration="16" />
 
     <artifact
         location="C:\Users\User\Documents\CoffeeAvanti\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="617835145789687" >
+    <build timestamp="2084883886411689" >
         <artifact
             location="C:\Users\User\Documents\CoffeeAvanti\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

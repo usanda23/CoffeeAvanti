@@ -34,15 +34,23 @@
         android:layout_height="389dp"
         android:id="@+id/scrollView"
         android:layout_above="@+id/button5"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </ScrollView>
+
     <ListView
-        android:layout_width="280dp"
+        android:layout_width="260dp"
         android:layout_height="340dp"
         android:id="@+id/listView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:layout_above="@+id/button5" />
+        android:textSize="10dp"
+        android:layout_alignTop="@+id/scrollView"
+        android:layout_alignLeft="@+id/scrollView"
+        android:layout_alignStart="@+id/scrollView"
+        android:choiceMode="multipleChoiceModal"
+        android:listSelector="@android:color/darker_gray"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:background="@android:color/background_light"
+        />
 
 </RelativeLayout>

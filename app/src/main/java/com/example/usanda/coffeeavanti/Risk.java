@@ -12,12 +12,11 @@ public class Risk extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.risk);
-
-        Button cancel = (Button) findViewById(R.id.button4);
-        cancel.setOnClickListener(new View.OnClickListener() {
+     Button procced2 = (Button) findViewById(R.id.button4);
+        procced2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = (new Intent(Risk.this, Home.class));
+                Intent intent = (new Intent(Risk.this, Register.Home.class));
                 startActivity(intent);
 
             }
